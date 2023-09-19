@@ -1,0 +1,72 @@
+
+.bg{
+    background-size:cover;
+    min-height: 100vh;
+    background-image: url(./assets/h1_hero1.jpg);
+}
+.button-1{
+    background-color: rgb(241,91,67);
+}
+
+@media(min-width:100px) and (max-width:970px){
+    .bg{
+        background-size:cover;
+        background-position:center;
+        min-height: 100vh;
+        background-image: url(./assets/h1_hero1.jpg);
+    }
+    .navbar-container{
+        padding: 5 8px !important;
+    }
+    .button-1,.nav-list1{
+        display: none !important ;
+    }
+    .nav-list-container{
+        background-color: rgb(77, 75, 75);
+    }
+    .menu-bar{
+        position: relative;
+        left: 80%;
+    }
+}
+@media(min-width:768px){
+    .button-1{
+        border: none !important;
+        display:block !important;
+    }
+    .nav-list-container{
+        width: 100%;
+        background-color: rgb(77, 75, 75);
+    }
+    .menu-bar{
+        position: relative;
+        left: 92%;
+    }
+    
+}
+@media(min-width:971px){
+    .nav-list-container{
+        display: none;
+    }
+    .nav-list1{
+         list-style-type: none;
+    }
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    .nav-link:hover{
+        color: rgb(54, 224, 178) !important;
+    }
+    .drop-link:hover{
+         color: rgb(54, 224, 178) !important;
+    }
+    .button-1{
+        width: 18%;
+        border: none !important;
+        display:block !important;
+    } 
+}
+.btn-ongoing{
+    border:none;
+    background-color: rgb(101,201,187);
+}
