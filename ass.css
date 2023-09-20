@@ -77,10 +77,10 @@
     margin-top: 10%;
 }
 
-.about-container{
-    background-color: rgb(252,242,235);
+.about-container,.cards-bg{
+    background-color: rgb(255, 248, 243);
 }
-.upcoming-program-heading{
+.upcoming-program-heading,.class-number,.about-us-heading,.card-number{
     color:rgb(101,201,187) ;
 }
 
@@ -95,6 +95,4 @@
 .view-program-color {
     color:rgb(241,91,67) ;
 }
-.about-us-heading{
-    color:rgb(101,201,187) ;
-}
+
