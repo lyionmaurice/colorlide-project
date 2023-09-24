@@ -78,13 +78,13 @@
 }
 
 .about-container,.cards-bg{
-    background-color: rgb(255, 248, 243);
+    background-color: rgb(239, 239, 239);
 }
-.upcoming-program-heading,.class-number,.about-us-heading,.card-number{
+.headings,.col-bg,.love-icon{
     color:rgb(101,201,187) ;
 }
 
-.donate-now-btn{
+.donate-now-btn,.how-we-help{
     border: none;
     background-color: rgb(241,91,67);
 }
@@ -94,5 +94,17 @@
 }
 .view-program-color {
     color:rgb(241,91,67) ;
+}
+.footer-bg{
+    background-color: rgb(38,59,92);
+}
+.facebook-bg{
+    background-color: rgb(48, 103, 191);
+}
+.twitter-bg{
+    background-color: rgb(95, 177, 232);
+}
+.instagram-bg{
+    background-color: rgb(198, 194, 192);
 }
 
